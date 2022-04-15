@@ -2,4 +2,8 @@ project: mayhem-cmake-example
 target: fuzzme
 
 cmds:
+<<<<<<< HEAD
   - cmd: /fuzzme
+=======
+  - cmd: /fuzzme @@
+>>>>>>> b1971fec9d7009d91dc6c1c3ce0365d56525bdad
