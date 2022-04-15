@@ -12,13 +12,7 @@ WORKDIR /mayhem-cmake-example
 ## TODO: ADD YOUR BUILD INSTRUCTIONS HERE.
 RUN mkdir build
 WORKDIR build
-<<<<<<< HEAD
 RUN CC=clang CXX=clang++ cmake ..
-=======
-ENV CC=clang
-ENV CXX=clang++
-RUN cmake .. 
->>>>>>> b1971fec9d7009d91dc6c1c3ce0365d56525bdad
 RUN make
 
 # Package Stage
