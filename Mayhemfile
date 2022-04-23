@@ -3,3 +3,8 @@ target: fuzzme
 
 cmds:
   - cmd: /fuzzme
+<<<<<<< HEAD
+=======
+    libfuzzer: true
+    sanitizer: true
+>>>>>>> 7fa0b4c920c52bf43c135265c1b1461e7d2cee28
