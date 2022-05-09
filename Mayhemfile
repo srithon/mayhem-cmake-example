@@ -4,4 +4,3 @@ target: fuzzme
 cmds:
   - cmd: /fuzzme
     libfuzzer: true
-    sanitizer: true
