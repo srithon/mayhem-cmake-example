@@ -20,4 +20,3 @@ int LLVMFuzzerTestOneInput(char* data, size_t sz)
     fuzzme(data);
     return 0;
 }
-
