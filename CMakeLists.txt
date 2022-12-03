@@ -9,4 +9,6 @@ add_executable(fuzzme fuzzme.c)
 #endif()
 #target_compile_options(fuzzme PUBLIC -fsanitize=fuzzer)
 #target_link_options(fuzzme PUBLIC -fsanitize=fuzzer)
+target_compile_options(fuzzme PUBLIC -fsanitize=fuzzer)
+target_link_options(fuzzme PUBLIC -fsanitize=fuzzer)
 
